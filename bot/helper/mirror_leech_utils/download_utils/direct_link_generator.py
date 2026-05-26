@@ -1165,7 +1165,7 @@ def gofile(url):
 
     def __build_headers(active_token):
         time_slot = int(time()) // 14400
-        raw = f"{user_agent}::en-US::{active_token}::{time_slot}::5d4f7g8sd45fsd"
+        raw = f"{user_agent}::en-US::{active_token}::{time_slot}::g4f8fd9f12h14g"
         return {
             "User-Agent": user_agent,
             "Accept-Encoding": "gzip, deflate, br",
